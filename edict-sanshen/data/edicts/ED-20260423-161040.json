@@ -1,0 +1,29 @@
+{
+  "id": "ED-20260423-161040",
+  "title": "Skill Test",
+  "content": "Testing the skill installation",
+  "source": "cli",
+  "status": "draft",
+  "created_at": "2026-04-23T16:10:40.415521",
+  "updated_at": "2026-04-23T16:10:40.415525",
+  "timeline": [
+    {
+      "stage": "draft",
+      "dept": "user",
+      "timestamp": "2026-04-23T16:10:40.415526",
+      "note": "皇上下旨"
+    }
+  ],
+  "zhongshu_plan": null,
+  "menxia_review": null,
+  "subtasks": [],
+  "subtask_results": {},
+  "memorial": null,
+  "metadata": {
+    "rejection_count": 0,
+    "retry_count": 0,
+    "assignees": [],
+    "priority": "normal",
+    "tags": []
+  }
+}

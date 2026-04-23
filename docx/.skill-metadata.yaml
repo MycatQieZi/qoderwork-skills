@@ -1,0 +1,173 @@
+examples:
+  - id: create-document
+    title:
+      zh: 创建新文档
+      en: Create New Document
+    description:
+      zh: 创建一个新的 Word 文档，包含指定的内容和格式
+      en: Create a new Word document with specified content and formatting
+    prompt:
+      zh: |-
+        请帮我创建一个专业的 Word 文档，要求如下：
+
+        标题：{{项目报告标题}}
+        内容结构：
+        1. 项目概述（200字左右）
+        2. 主要成果（要点列出）
+        3. 数据分析（包含图表说明）
+        4. 结论与建议
+
+        格式要求：
+        - 使用正式的商务文档样式
+        - 标题使用加粗格式
+        - 正文使用 12 号字体
+        - 添加页眉页脚
+        - 生成目录
+
+        请根据以上要求生成文档。
+      en: |-
+        Please help me create a professional Word document with the following requirements:
+
+        Title: {{Project Report Title}}
+        Content structure:
+        1. Project Overview (about 200 words)
+        2. Key Achievements (bullet points)
+        3. Data Analysis (including chart descriptions)
+        4. Conclusion and Recommendations
+
+        Formatting requirements:
+        - Use formal business document style
+        - Headers in bold format
+        - Body text in 12-point font
+        - Add headers and footers
+        - Generate table of contents
+
+        Please generate the document according to the above requirements.
+  - id: extract-content
+    title:
+      zh: 提取文档内容
+      en: Extract Document Content
+    description:
+      zh: 从 Word 文档中提取纯文本内容或特定结构化信息
+      en: Extract plain text content or specific structured information from Word documents
+    prompt:
+      zh: |-
+        请帮我分析这个 Word 文档并提取以下信息：
+
+        文档路径：{{文档文件路径}}
+
+        需要提取的内容：
+        1. 完整的纯文本内容
+        2. 所有标题和子标题
+        3. 表格数据（如果有）
+        4. 图片描述和位置信息
+        5. 文档的总体结构分析
+
+        输出格式：JSON 格式，便于后续处理。
+      en: |-
+        Please help me analyze this Word document and extract the following information:
+
+        Document path: {{Document file path}}
+
+        Content to extract:
+        1. Complete plain text content
+        2. All headings and subheadings
+        3. Table data (if any)
+        4. Image descriptions and position information
+        5. Overall document structure analysis
+
+        Output format: JSON format for easy subsequent processing.
+  - id: convert-format
+    title:
+      zh: 格式转换
+      en: Format Conversion
+    description:
+      zh: 将 Word 文档转换为其他格式或调整文档格式
+      en: Convert Word documents to other formats or adjust document formatting
+    prompt:
+      zh: |-
+        我需要转换和优化这个 Word 文档：
+
+        源文档：{{源文档路径}}
+        目标格式：{{目标格式，如 PDF、HTML 等}}
+
+        转换要求：
+        1. 保持原有的格式和布局
+        2. 优化字体和段落间距
+        3. 确保图片清晰度
+        4. 添加水印（可选）
+        5. 设置页面边距和纸张大小
+
+        如果是转换为 PDF，请确保：
+        - 所有链接可点击
+        - 书签结构完整
+        - 文件大小适中
+
+        请处理并提供转换后的文件。
+      en: |-
+        I need to convert and optimize this Word document:
+
+        Source document: {{Source document path}}
+        Target format: {{Target format, such as PDF, HTML, etc.}}
+
+        Conversion requirements:
+        1. Maintain original formatting and layout
+        2. Optimize fonts and paragraph spacing
+        3. Ensure image clarity
+        4. Add watermark (optional)
+        5. Set page margins and paper size
+
+        If converting to PDF, please ensure:
+        - All links are clickable
+        - Bookmark structure is complete
+        - File size is appropriate
+
+        Please process and provide the converted file.
+  - id: template-fill
+    title:
+      zh: 模板填充
+      en: Template Filling
+    description:
+      zh: 使用数据自动填充 Word 模板文档
+      en: Automatically fill Word template documents with data
+    prompt:
+      zh: |-
+        请帮我使用以下数据填充 Word 模板：
+
+        模板文件：{{模板文件路径}}
+        数据来源：{{JSON数据或表格数据}}
+
+        需要替换的占位符：
+        - {{姓名}} -> 实际姓名
+        - {{日期}} -> 当前日期
+        - {{项目名称}} -> 项目名称
+        - {{金额}} -> 数值金额
+        - {{部门}} -> 部门名称
+
+        特殊要求：
+        1. 保持模板原有格式
+        2. 自动计算合计金额（如果有）
+        3. 根据数据动态调整表格行数
+        4. 添加适当的条件格式
+
+        请生成填充完成的文档。
+      en: |-
+        Please help me fill the Word template with the following data:
+
+        Template file: {{Template file path}}
+        Data source: {{JSON data or table data}}
+
+        Placeholders to replace:
+        - {{Name}} -> Actual name
+        - {{Date}} -> Current date
+        - {{Project Name}} -> Project name
+        - {{Amount}} -> Numeric amount
+        - {{Department}} -> Department name
+
+        Special requirements:
+        1. Maintain original template formatting
+        2. Automatically calculate total amounts (if any)
+        3. Dynamically adjust table rows based on data
+        4. Add appropriate conditional formatting
+
+        Please generate the completed filled document.

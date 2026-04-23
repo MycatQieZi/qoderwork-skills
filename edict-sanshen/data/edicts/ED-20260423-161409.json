@@ -1,0 +1,77 @@
+{
+  "id": "ED-20260423-161409",
+  "title": "查看E盘notebook最新提交记录",
+  "content": "查看用户E盘的notebook目录的最新git提交记录",
+  "source": "cli",
+  "status": "completed",
+  "created_at": "2026-04-23T16:14:09.385188",
+  "updated_at": "2026-04-23T16:16:11.808630",
+  "timeline": [
+    {
+      "stage": "draft",
+      "dept": "user",
+      "timestamp": "2026-04-23T16:14:09.385194",
+      "note": "皇上下旨"
+    },
+    {
+      "stage": "taizi_sorted",
+      "dept": "taizi",
+      "timestamp": "2026-04-23T16:14:23.623890",
+      "note": "太子已分拣：查看E盘notebook目录的git最新提交记录"
+    },
+    {
+      "stage": "zhongshu_planned",
+      "dept": "zhongshu",
+      "timestamp": "2026-04-23T16:14:41.048997",
+      "note": "中书省已规划：单任务执行git log"
+    },
+    {
+      "stage": "menxia_reviewing",
+      "dept": "menxia",
+      "timestamp": "2026-04-23T16:15:08.880740",
+      "note": "门下省开始审核"
+    },
+    {
+      "stage": "menxia_approved",
+      "dept": "menxia",
+      "timestamp": "2026-04-23T16:15:14.355040",
+      "note": "门下省审核通过，评分100，无严重问题"
+    },
+    {
+      "stage": "shangshu_dispatching",
+      "dept": "shangshu",
+      "timestamp": "2026-04-23T16:15:19.922191",
+      "note": "尚书省开始调度"
+    },
+    {
+      "stage": "executing",
+      "dept": "libu",
+      "timestamp": "2026-04-23T16:15:25.854809",
+      "note": "分发到礼部执行：查看E盘notebook目录的git最新提交记录"
+    },
+    {
+      "stage": "reviewing",
+      "dept": "shangshu",
+      "timestamp": "2026-04-23T16:16:05.549334",
+      "note": "执行完成，结果良好"
+    },
+    {
+      "stage": "completed",
+      "dept": "shangshu",
+      "timestamp": "2026-04-23T16:16:11.808652",
+      "note": "审核通过，任务完成"
+    }
+  ],
+  "zhongshu_plan": null,
+  "menxia_review": null,
+  "subtasks": [],
+  "subtask_results": {},
+  "memorial": "# 奏折 · 查看E盘notebook最新提交记录\n\n**旨意编号**: `ED-20260423-161409`\n**下旨时间**: 2026-04-23T16:14:09.385188\n**完成时间**: 2026-04-23T16:16:11.808630\n**封驳次数**: 0\n\n---\n\n## 一、圣旨原文\n\n查看用户E盘的notebook目录的最新git提交记录\n\n---\n\n## 二、中书省规划方案\n\n（无规划记录）\n\n---\n\n## 三、门下省审议\n\n（无审议记录）\n\n---\n\n## 四、六部执行结果\n\n（无执行记录）\n\n---\n\n## 五、流转时间线\n\n- `2026-04-23 16:14:09` | **皇上** → draft | 皇上下旨\n- `2026-04-23 16:14:23` | **太子** → taizi_sorted | 太子已分拣：查看E盘notebook目录的git最新提交记录\n- `2026-04-23 16:14:41` | **中书省** → zhongshu_planned | 中书省已规划：单任务执行git log\n- `2026-04-23 16:15:08` | **门下省** → menxia_reviewing | 门下省开始审核\n- `2026-04-23 16:15:14` | **门下省** → menxia_approved | 门下省审核通过，评分100，无严重问题\n- `2026-04-23 16:15:19` | **尚书省** → shangshu_dispatching | 尚书省开始调度\n- `2026-04-23 16:15:25` | **礼部** → executing | 分发到礼部执行：查看E盘notebook目录的git最新提交记录\n- `2026-04-23 16:16:05` | **尚书省** → reviewing | 执行完成，结果良好\n- `2026-04-23 16:16:11` | **尚书省** → completed | 审核通过，任务完成\n\n---\n\n*此奏折由三省六部系统自动生成，存档于奏折阁。*",
+  "metadata": {
+    "rejection_count": 0,
+    "retry_count": 0,
+    "assignees": [],
+    "priority": "normal",
+    "tags": []
+  }
+}

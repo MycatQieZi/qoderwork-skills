@@ -1,0 +1,65 @@
+{
+  "id": "ED-20260423-162303",
+  "title": "初始化skills目录git并提交远端",
+  "content": "在.qoderwork/skills目录初始化git仓库，创建本地仓库，配置远端，并提交所有skills内容",
+  "source": "cli",
+  "status": "executing",
+  "created_at": "2026-04-23T16:23:03.039785",
+  "updated_at": "2026-04-23T16:24:35.392160",
+  "timeline": [
+    {
+      "stage": "draft",
+      "dept": "user",
+      "timestamp": "2026-04-23T16:23:03.039791",
+      "note": "皇上下旨"
+    },
+    {
+      "stage": "taizi_sorted",
+      "dept": "taizi",
+      "timestamp": "2026-04-23T16:23:07.719450",
+      "note": "太子分拣：初始化skills目录git仓库并提交远端"
+    },
+    {
+      "stage": "zhongshu_planned",
+      "dept": "zhongshu",
+      "timestamp": "2026-04-23T16:23:45.048405",
+      "note": "中书省已规划：7个子任务，git初始化到远端推送"
+    },
+    {
+      "stage": "menxia_reviewing",
+      "dept": "menxia",
+      "timestamp": "2026-04-23T16:24:20.510154",
+      "note": "门下省开始审核"
+    },
+    {
+      "stage": "menxia_approved",
+      "dept": "menxia",
+      "timestamp": "2026-04-23T16:24:25.841718",
+      "note": "门下省审核通过，评分85，无严重问题。建议subtask_6由主流程处理"
+    },
+    {
+      "stage": "shangshu_dispatching",
+      "dept": "shangshu",
+      "timestamp": "2026-04-23T16:24:30.632279",
+      "note": "尚书省开始调度"
+    },
+    {
+      "stage": "executing",
+      "dept": "libu",
+      "timestamp": "2026-04-23T16:24:35.392181",
+      "note": "分发到礼部执行：git初始化到远端推送"
+    }
+  ],
+  "zhongshu_plan": null,
+  "menxia_review": null,
+  "subtasks": [],
+  "subtask_results": {},
+  "memorial": null,
+  "metadata": {
+    "rejection_count": 0,
+    "retry_count": 0,
+    "assignees": [],
+    "priority": "normal",
+    "tags": []
+  }
+}
