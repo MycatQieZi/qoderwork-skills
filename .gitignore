@@ -28,3 +28,8 @@ node_modules/
 # Temp
 *.tmp
 *.temp
+
+# Edict runtime data (keep structure, ignore runtime data)
+edict-sanshen/data/edicts/
+edict-sanshen/scripts/data/memorials/
+edict-sanshen/dashboard/kanban.html
