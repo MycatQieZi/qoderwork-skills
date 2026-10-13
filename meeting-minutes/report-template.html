@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>会议纪要：[会议主题]</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    line-height: 1.8; color: #333; max-width: 900px; margin: 0 auto; padding: 40px 24px;
+    background: #fff;
+  }
+  h1 { font-size: 28px; text-align: center; margin-bottom: 8px; color: #1a1a1a; }
+  .subtitle { text-align: center; color: #888; font-size: 14px; margin-bottom: 36px; }
+  h2 {
+    font-size: 20px; margin: 32px 0 16px; padding-bottom: 8px;
+    border-bottom: 2px solid #2563eb; color: #1e3a5f;
+  }
+  h3 { font-size: 16px; margin: 20px 0 10px; color: #374151; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 14px; }
+  th, td { border: 1px solid #e5e7eb; padding: 10px 14px; text-align: left; }
+  th { background: #f3f4f6; font-weight: 600; color: #374151; }
+  tr:nth-child(even) td { background: #fafafa; }
+  ul, ol { padding-left: 24px; margin: 8px 0 16px; }
+  li { margin: 4px 0; }
+  .tag {
+    display: inline-block; padding: 2px 10px; border-radius: 12px;
+    font-size: 12px; font-weight: 600; margin-right: 8px;
+  }
+  .tag-resolved { background: #d1fae5; color: #065f46; }
+  .tag-pending { background: #fef3c7; color: #92400e; }
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 32px; margin: 12px 0 24px; }
+  .info-item { display: flex; }
+  .info-label { font-weight: 600; color: #6b7280; min-width: 72px; }
+  .info-value { color: #1f2937; }
+  .footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #e5e7eb; text-align: center; color: #9ca3af; font-size: 13px; }
+
+  @media print {
+    body { padding: 20px; }
+    h2 { border-bottom-color: #000; color: #000; }
+    table { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<h1>会议纪要</h1>
+<p class="subtitle">[会议主题] · [会议日期]</p>
+
+<!-- 按最终确认的章节逐一渲染。以下为 9 节完整骨架，不需要的章节整节删除即可 -->
+
+<h2>1. 会议主题</h2>
+<p>[会议主题内容]</p>
+
+<h2>2. 基本信息</h2>
+<div class="info-grid">
+  <div class="info-item"><span class="info-label">会议时间</span><span class="info-value">[时间]</span></div>
+  <div class="info-item"><span class="info-label">会议地点</span><span class="info-value">[地点]</span></div>
+  <div class="info-item"><span class="info-label">主持人</span><span class="info-value">[主持人]</span></div>
+  <div class="info-item"><span class="info-label">记录人</span><span class="info-value">[记录人]</span></div>
+</div>
+
+<h2>3. 参会人员</h2>
+<ul>
+  <li>[姓名]（[角色/部门]）</li>
+</ul>
+
+<h2>4. 讨论议题</h2>
+<!-- 每条议题独立成块 -->
+<h3>议题 1：[议题名称]</h3>
+<p><strong>讨论摘要：</strong></p>
+<ul><li>...</li></ul>
+<p><strong>各方观点：</strong></p>
+<ul><li>[姓名]认为：...</li></ul>
+
+<h2>5. 已解决问题 / 达成共识</h2>
+<ol>
+  <li><strong>[结论标题]</strong>：[结论描述]</li>
+</ol>
+
+<h2>6. 待解决问题 / 遗留项</h2>
+<table>
+  <tr><th>序号</th><th>问题描述</th><th>阻塞原因</th><th>后续安排</th></tr>
+  <tr><td>1</td><td>...</td><td>...</td><td>...</td></tr>
+</table>
+
+<h2>7. 行动计划 / 待办事项</h2>
+<table>
+  <tr><th>序号</th><th>行动项</th><th>负责人</th><th>截止日期</th><th>备注</th></tr>
+  <tr><td>1</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+</table>
+
+<h2>8. 下次会议</h2>
+<div class="info-grid">
+  <div class="info-item"><span class="info-label">暂定时间</span><span class="info-value">[时间]</span></div>
+  <div class="info-item"><span class="info-label">预计议题</span><span class="info-value">[议题]</span></div>
+</div>
+
+<h2>9. 备注 / 附件</h2>
+<ul><li>...</li></ul>
+
+<div class="footer">
+  <p>本纪要由 Meeting Minutes Skill 自动生成 · [生成日期]</p>
+</div>
+
+</body>
+</html>

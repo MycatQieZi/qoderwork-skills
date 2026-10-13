@@ -1,6 +1,8 @@
 ---
 name: edict-sanshen
+version: 1.0.0
 description: Orchestrates complex multi-step tasks using a Three Departments and Six Ministries (Sanshen Liubu) workflow with planning, mandatory audit, parallel execution, and real-time kanban dashboard. Use when the user presents a complex task requiring decomposition, quality review, multi-agent execution, or when the user mentions multi-agent collaboration, task orchestration, workflow automation, or explicitly asks to use the edict/sanshen system.
+description_zh: 用「三省六部」工作流编排复杂的多步任务：规划 → 强制审计 → 并行执行 → 实时看板。当用户提出需要拆解的复杂任务、需要质量复核或多智能体执行，或提到多智能体协作、任务编排、工作流自动化、明确要求使用 edict/sanshen 体系时使用。
 ---
 
 # 三省六部 · Edict Workflow
